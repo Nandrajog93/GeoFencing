@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "478181554934137D8DF3B9E7C88909FC7C983CCD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "478181554934137D8DF3B9E7C88909FC7C983CCD" : 9223372036854775807,
+    "1657B3B496263BD3187CADCC42B3C7E1C1074EE5" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "15840050-BCBE-4451-BB93-E25C0A4A8D95",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "478181554934137D8DF3B9E7C88909FC7C983CCD" : "GeoFencing\/",
+    "1657B3B496263BD3187CADCC42B3C7E1C1074EE5" : "GeoFencing\/Geofencing\/Geofencing\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Geofencing",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Geofencing\/Geofencing.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Nandrajog93\/Geofencing.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1657B3B496263BD3187CADCC42B3C7E1C1074EE5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Nandrajog93\/GeoFencing.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "478181554934137D8DF3B9E7C88909FC7C983CCD"
+    }
+  ]
+}
