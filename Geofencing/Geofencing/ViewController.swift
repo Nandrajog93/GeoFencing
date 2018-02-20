@@ -10,6 +10,7 @@ import UIKit
 import MapKit
 import CoreLocation
 import UserNotifications  // To get notification
+import CoreData
 
 class ViewController: UIViewController {
 
@@ -101,4 +102,15 @@ extension ViewController : MKMapViewDelegate{
         circleRender.alpha = 0.5
         return circleRender
     }
+    
+    
+    
+    override func willTransition(to newCollection: UITraitCollection, with coordinator: UIViewControllerTransitionCoordinator) {
+        print(UIDevice.current.orientation.isLandscape)
+        
+        
+        
+        // UICollectionView.colle
+    }
+
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		070DB7D22035B26200296862 /* FuelCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070DB7D12035B26200296862 /* FuelCalculator.swift */; };
+		071E9B952036E89000943D6D /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9B942036E89000943D6D /* Contacts.swift */; };
 		07C41C092033733F00269090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C41C082033733F00269090 /* AppDelegate.swift */; };
 		07C41C0B2033733F00269090 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C41C0A2033733F00269090 /* ViewController.swift */; };
 		07C41C0E2033733F00269090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C41C0C2033733F00269090 /* Main.storyboard */; };
@@ -14,9 +16,13 @@
 		07C41C132033733F00269090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C41C122033733F00269090 /* Assets.xcassets */; };
 		07C41C162033733F00269090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C41C142033733F00269090 /* LaunchScreen.storyboard */; };
 		07C41C1F20337B6800269090 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C41C1E20337B6800269090 /* MapKit.framework */; };
+		KIYDQKWBMRKIEYEVRWSLKUDQ /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = HYXIFWTDXJPPRRMDCEPMDTJH /* QuartzCore.framework */; };
+		KNPONLATPTEBRUFEBXNXFHCQ /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = THBDITSPYVFDWQYYBDCIDIXG /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		070DB7D12035B26200296862 /* FuelCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FuelCalculator.swift; path = ../FuelCalculator.swift; sourceTree = "<group>"; };
+		071E9B942036E89000943D6D /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 		07C41C052033733F00269090 /* Geofencing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geofencing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C41C082033733F00269090 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07C41C0A2033733F00269090 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +32,9 @@
 		07C41C152033733F00269090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07C41C172033733F00269090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07C41C1E20337B6800269090 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		HYXIFWTDXJPPRRMDCEPMDTJH /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		QMNTBWVDMICWTEJGUAKXRYSM /* SparkInspector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SparkInspector.framework; path = "/Applications/Spark Inspector.app/Contents/Resources/Frameworks/SparkInspector.framework"; sourceTree = "<group>"; };
+		THBDITSPYVFDWQYYBDCIDIXG /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +43,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				07C41C1F20337B6800269090 /* MapKit.framework in Frameworks */,
+				KIYDQKWBMRKIEYEVRWSLKUDQ /* QuartzCore.framework in Frameworks */,
+				KNPONLATPTEBRUFEBXNXFHCQ /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +77,8 @@
 				07C41C122033733F00269090 /* Assets.xcassets */,
 				07C41C142033733F00269090 /* LaunchScreen.storyboard */,
 				07C41C172033733F00269090 /* Info.plist */,
+				070DB7D12035B26200296862 /* FuelCalculator.swift */,
+				071E9B942036E89000943D6D /* Contacts.swift */,
 				07C41C0F2033733F00269090 /* Geofencing.xcdatamodeld */,
 			);
 			path = Geofencing;
@@ -75,6 +88,9 @@
 			isa = PBXGroup;
 			children = (
 				07C41C1E20337B6800269090 /* MapKit.framework */,
+				HYXIFWTDXJPPRRMDCEPMDTJH /* QuartzCore.framework */,
+				THBDITSPYVFDWQYYBDCIDIXG /* libz.dylib */,
+				QMNTBWVDMICWTEJGUAKXRYSM /* SparkInspector.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -161,6 +177,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				07C41C112033733F00269090 /* Geofencing.xcdatamodeld in Sources */,
+				070DB7D22035B26200296862 /* FuelCalculator.swift in Sources */,
+				071E9B952036E89000943D6D /* Contacts.swift in Sources */,
 				07C41C0B2033733F00269090 /* ViewController.swift in Sources */,
 				07C41C092033733F00269090 /* AppDelegate.swift in Sources */,
 			);
@@ -215,6 +233,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"/Applications/Spark Inspector.app/Contents/Resources/Frameworks\"";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -232,6 +251,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					SparkInspector,
+				);
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -288,8 +312,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 67X72K5VP4;
+				FRAMEWORK_SEARCH_PATHS = "\"/Applications/Spark Inspector.app/Contents/Resources/Frameworks\"";
 				INFOPLIST_FILE = Geofencing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					SparkInspector,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Aakash.Geofencing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -302,6 +333,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 67X72K5VP4;
 				INFOPLIST_FILE = Geofencing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Aakash.Geofencing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -328,6 +360,7 @@
 				07C41C1C2033733F00269090 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
